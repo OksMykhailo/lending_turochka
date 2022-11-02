@@ -1,0 +1,94 @@
+/*цвет основного текста #FFFFFF */
+/*вторичный цвет текста #000000*/
+/**/
+/**/
+
+:root{}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+
+.container {
+    width: 1440;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.header-page {
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+}
+
+.logo-kafe {
+    width: 90px;
+    height: 90px;
+}
+
+
+
+.site-nav .item-nav + .item-nav {
+    margin-left:40px;
+}
+
+.hero {
+    width: 1440px;
+    height: 1032px;
+    
+    background: linear-gradient(83deg, rgba(230, 224, 15, 0.7) 15%, rgba(230, 225, 15, 0.7) 30%, rgba(239, 245, 10, 0.5) 44%, rgba(217, 238, 13, 0.7) 63%, rgba(211, 244, 13, 0.7) 100%),url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 1;
+    background-color: #e2fa07;
+
+}
+
+.hero-b {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+
+.site-nav{
+    padding-top: 35px;
+    display: flex;
+    color: black;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.hero-title{
+    margin-bottom: 0;
+    margin-top: 24px;
+    font-style: Bold;
+    font-size: 96px;
+    line-height: 1;
+}
+
+.hero-text{
+    margin-top: 24px;
+     font-size: 32px;
+     line-height: 1,25;
+     width: 763px;
+     height: 120px;
+
+}
