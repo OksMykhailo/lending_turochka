@@ -42,8 +42,17 @@ body {
 
 
 
-.site-nav .item-nav + .item-nav {
+/*.site-nav .item-nav + .item-nav {
     margin-left:40px;
+}*/
+
+.item-nav {
+    margin-left:40px;
+    
+}
+
+.item-nav:first-child {
+    margin-left: 0;
 }
 
 .hero {
